@@ -1,1 +1,25 @@
 /* Write your CSS here */
+.nav-container {
+  background-color: #475569;
+  font-family: 'roboto';
+  padding: 20px;
+  color: #fff;
+}
+.label {
+  margin-left: 5px;
+}
+.spacing {
+  margin-bottom: 10px;
+}
+.checkboxes-container {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .nav-container {
+    padding-left: 140px;
+  }
+  .nav-h1 {
+    font-size: 50px;
+  }
+}

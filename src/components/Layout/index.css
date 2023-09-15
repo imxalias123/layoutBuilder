@@ -1,1 +1,126 @@
 /* Write your CSS here */
+.layout-container {
+  padding: 20px;
+  padding-left: 30px;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+.header-container {
+  color: #64748b;
+  background-color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+  margin-top: 30px;
+  font-family: 'roboto';
+}
+.left-nav-h1 {
+  color: #64748b;
+  font-weight: 700;
+}
+.left-nav-bar-container {
+  background-color: #e2e8f0;
+  margin-bottom: 3px;
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.flex-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+p {
+  margin-right: 10px;
+  font-size: 20px;
+  color: #64748b;
+  margin-top: 0px;
+  text-align: center;
+}
+.Content-container {
+  background-color: #f1f5f9;
+  padding-left: 20px;
+  color: #64748b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+.content-h1 {
+  font-size: 20px;
+  font-family: 'roboto';
+  font-weight: 700;
+  margin-top: 10px;
+  color: #64748b;
+}
+.right-nav-container {
+  background-color: #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  padding-top: 30px;
+  font-family: 'roboto';
+  margin-bottom: 3px;
+}
+.wrap-box {
+  display: flex;
+}
+.box {
+  background: transparent;
+  border: 1px solid #64748b;
+  color: #64748b;
+  margin: 5px;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-container {
+  color: #64748b;
+  background-color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'roboto';
+}
+@media (min-width: 768px) {
+  .middle-container {
+    display: flex;
+  }
+  .wrap-box {
+    display: flex;
+    flex-direction: column;
+  }
+  .left-nav-bar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 5px;
+  }
+  .flex-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .Content-container {
+    margin-right: 5px;
+    min-width: 300px;
+  }
+  .middle-container {
+    flex-grow: 1;
+  }
+}
