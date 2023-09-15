@@ -36,6 +36,7 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  list-style-type: none;
 }
 
 p {
@@ -97,30 +98,44 @@ p {
   justify-content: center;
   font-family: 'roboto';
 }
+.middle-container {
+  height: 570px;
+}
 @media (min-width: 768px) {
   .middle-container {
     display: flex;
+    justify-content: space-between;
+    height: 400px;
   }
   .wrap-box {
     display: flex;
     flex-direction: column;
   }
   .left-nav-bar-container {
+    width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
     margin-right: 5px;
+    padding: 20px;
+    height: 400px;
   }
   .flex-wrap {
     display: flex;
     flex-direction: column;
+    list-style-type: none;
   }
   .Content-container {
     margin-right: 5px;
-    min-width: 300px;
+    height: 400px;
+    width: 100%;
   }
   .middle-container {
     flex-grow: 1;
+  }
+  .right-nav-container {
+    width: 300px;
+    height: 400px;
   }
 }

@@ -1,1 +1,11 @@
 /* Write your CSS here */
+.header-container {
+  color: #64748b;
+  background-color: #cbd5e1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3px;
+  margin-top: 30px;
+  font-family: 'roboto';
+}
